@@ -40,7 +40,7 @@ class WordEmbedding:
     def __init__(self):
         self.thresh = None
         self.max_words = None
-        self.desc = None
+        self.desc = ''
         # list of words 
         self.words = None
         # embeddings corresponding to words
