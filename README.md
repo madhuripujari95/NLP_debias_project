@@ -7,7 +7,7 @@ Madhuri Pujari | Harish Chauhan | Dhruv Agarwal
 
 
 # Dataset
-w2v_gnews_small.txt -  w2vNEWS (Word2Vec embedding trained on a corpus of Google news texts) 
+**w2v_gnews_small.txt -  w2vNEWS (Word2Vec embedding trained on a corpus of Google news texts) **
 This is a word embeddings trained on Google News articles which exhibit female/male gender stereotypes to a disturbing extent. This raises concerns because their widespread use, as we describe, often tends to amplify these biases. 
 Geometrically, gender bias is first shown to be captured by a direction in the word embedding. 
 Second, gender neutral words are shown to be linearly separable from gender definition words in the word embedding. 
