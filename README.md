@@ -12,7 +12,6 @@ Madhuri Pujari | Harish Chauhan | Dhruv Agarwal
 2. d = 300-dimensional word2vec embedding, which has proven to be immensely useful since it is high quality, publicly available, and easy to incorporate into any application. In particular, we downloaded the pre-trained embedding on the Google News corpus,4 and normalized each word to unit length as is common. 
 3. Starting with the 50,000 most frequent words, we selected only lower-case words and phrases consisting of fewer than 20 lower-case characters (words with upper-case letters, digits, or punctuation were discarded). 
 4. After this filtering, 26,377 words remained. While we focus on w2vNEWS, we show later that gender stereotypes are also present in other embedding data-sets.
-5. Geometrically, gender bias is first shown to be captured by a direction in the word embedding. Second, gender neutral words are shown to be linearly separable from gender definition words in the word embedding. 
 
 # Debias Algorithm
 The paper utilizes following methods to success fully dampen the effect of bias in the embedding while still preserving its useful properties such asthe ability to cluster related concepts and to solve analogy tasks.
