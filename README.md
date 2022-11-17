@@ -7,7 +7,7 @@ Madhuri Pujari | Harish Chauhan | Dhruv Agarwal
 
 
 # Dataset
-** w2v_gnews_small.txt -  w2vNEWS (Word2Vec embedding trained on a corpus of Google news texts) **
+**w2v_gnews_small.txt -  w2vNEWS (Word2Vec embedding trained on a corpus of Google news texts)**
 1. This is a word embeddings trained on Google News articles which exhibit female/male gender stereotypes to a disturbing extent. This raises concerns because their widespread use, as we describe, often tends to amplify these biases. 
 2. d = 300-dimensional word2vec embedding, which has proven to be immensely useful since it is high quality, publicly available, and easy to incorporate into any application. In particular, we downloaded the pre-trained embedding on the Google News corpus,4 and normalized each word to unit length as is common. 
 3. Starting with the 50,000 most frequent words, we selected only lower-case words and phrases consisting of fewer than 20 lower-case characters (words with upper-case letters, digits, or punctuation were discarded). 
