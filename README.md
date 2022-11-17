@@ -18,4 +18,12 @@ The paper utilizes following methods to success fully dampen the effect of bias 
   2. **Hard de-biasing (neutralize and equalize)** To lessen the impact of biases, the authors introduce a method viz. neutralize and equalize. It removes gender neutral words from gender subspace and make them equidistant outside this subspace.
   3. **Soft bias correction** Equalize removes certain distinctions that are valuable in certain applications. The Soften algorithm reduces the differences between these sets while maintaining as much similarity to the original emedding as possible, with a parameter that controls this trade-off.
 
+# Results
+1. Gender Bias - Word Embedding Space
+![alt text](https://github.com/madhuripujari95/NLP_debias_project/blob/391b57911c8635c152015fc2844129c4ee8f0167/results/genderBias.png)
 
+2. Racial Bias - Word Embedding Space
+![alt text](https://github.com/madhuripujari95/NLP_debias_project/blob/391b57911c8635c152015fc2844129c4ee8f0167/results/racialBias.png)
+
+3. Debiased Word Embedding Space after algorithm 
+![alt text](https://github.com/madhuripujari95/NLP_debias_project/blob/391b57911c8635c152015fc2844129c4ee8f0167/results/Debiased.png)
