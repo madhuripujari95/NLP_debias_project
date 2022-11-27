@@ -1,4 +1,3 @@
 __pycache__
 .DS_Store
-w2v_gnews_small.txt
-turkish_vectors.txt
+embeddings

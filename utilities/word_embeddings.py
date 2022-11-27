@@ -167,3 +167,7 @@ class WordEmbedding:
                 break
 
         return ans
+
+    def save_embeddings(self, file_path):
+        with open(file_path, 'wb') as outfile:
+            np.save(outfile, self.embeddings)
